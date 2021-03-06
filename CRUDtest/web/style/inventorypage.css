@@ -1,0 +1,104 @@
+.body
+{
+    background-color: #00aa9e;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body h1, h3
+{
+    color: white;
+}
+
+.card {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  border-color: grey;
+}
+
+.card-body > img {
+  height: 80px;
+  object-fit: contain;
+  margin-left: 80%;
+}
+
+
+.btn btn-primary
+{
+    background: #ff435f;
+}
+
+.regBox {
+  width: 700px;
+  height: 630px;
+  background: white;
+  color: black;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px 30px;
+  font-family: "Spartan", sans-serif;
+}
+
+.regBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.regBox input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.regBox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.regBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.regBox input[type="submit"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+.regBox input[type="button"] {
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 60px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.regBox input[type="button"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+

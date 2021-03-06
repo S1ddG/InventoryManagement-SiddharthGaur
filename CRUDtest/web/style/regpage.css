@@ -1,0 +1,158 @@
+.body {
+  background-image: url("../images/inventory.png");
+  background-size: 320vh;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+}
+
+.body h1
+{
+    color: white;
+}
+
+.regBox {
+  width: 700px;
+  height: 1020px;
+  background: white;
+  color: black;
+  top: 85%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px 30px;
+  font-family: "Spartan", sans-serif;
+}
+
+.editBox {
+  width: 700px;
+  height: 950px;
+  background: white;
+  color: black;
+  top: 85%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px 30px;
+  font-family: "Spartan", sans-serif;
+}
+
+.regBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.regBox input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.regBox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.regBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.regBox input[type="submit"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+.regBox input[type="button"] {
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 60px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.regBox input[type="button"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+.editBox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.editBox input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.editBox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.editBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.editBox input[type="submit"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+.editBox input[type="button"] {
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 60px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  background: #ff435f;
+  border-radius: 5px;
+}
+
+.editBox input[type="button"]:hover {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05) !important;
+}
+
+
+

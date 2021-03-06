@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/loginpage.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    </head>
+    <body class="body">
+        <h1>Inventory Management System - Siddharth Gaur</h1>
+        <div class="loginBox">
+            
+            <h3>Login Here</h3>
+            <form method="POST" id="form" action="LoginValidation">
+                <p>Username</p>
+                <input type="text" name="username" id="username" placeholder="Your Username Here" required>
+                <p>Password</p>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                    <input type="submit" value="Login" name="submit" onClick="location.href='\UserReg.html'">
+                <br>
+                <br>
+                    <a href="UserReg.html">Aren't Registered?</a>
+            </form>
+        </div>
+    </body>
+</html>
